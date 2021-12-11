@@ -34,6 +34,8 @@ public class Excelcode {
 		Cell c=r.getCell(j);
 		int a= (int) c.getNumericCellValue();
 		return String.valueOf(a);
+		
+		
 	}
 	
 	
